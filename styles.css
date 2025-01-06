@@ -1,2 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Time and Space Complexity</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f4f4f4;
+    }
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+      color: #555;
+      max-width: 800px;
+      margin: 20px auto;
+    }
+    b {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
 
+  <h1>Time, Space, and Complexity</h1>
+
+  <p>
+    Time complexity refers to the amount of time an algorithm takes to run, 
+    depending on the size of the input. Efficient algorithms are those that 
+    run faster as the size of the input increases, often represented in 
+    Big-O notation to express the upper bound of the runtime. Optimizing time 
+    complexity is essential for ensuring algorithms perform well even for large inputs.
+  </p>
+
+  <p>
+    <b>Space Complexity</b> measures the amount of memory an algorithm needs 
+    to execute, relative to the size of the input. The space complexity is often 
+    expressed as O(n), which indicates that the memory usage grows linearly with 
+    the input size. Minimizing space complexity is important for managing memory 
+    resources, especially in environments with limited memory.
+  </p>
+
+</body>
+</html>
 /* Your CSS Code here. */
